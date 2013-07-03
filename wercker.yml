@@ -1,0 +1,6 @@
+box: wercker/default
+build:
+  steps:
+    - script:
+        code: |
+          source run.sh
