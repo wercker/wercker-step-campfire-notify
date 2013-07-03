@@ -1,6 +1,6 @@
 cd $WERCKER_STEP_ROOT
 cd camplight
-python setup.py install
+sudo python setup.py install
 
 cd $WERCKER_STEP_ROOT
 python main.py
