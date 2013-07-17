@@ -5,7 +5,7 @@ properties:
   token:
     type: string
     required: true
-  room_id:
+  room-id:
     type: string
     required: true
   subdomain:
