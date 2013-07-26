@@ -14,3 +14,10 @@ properties:
   message:
     type: string
     required: true
+  failed-message:
+    type: string
+  passed-message:
+    type: string
+  on:
+    type: string
+    default: always
