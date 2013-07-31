@@ -23,12 +23,12 @@ Example
 
 Add CAMPFIRE_TOKEN as deploy target or application environment variable.
 
-```
-build:
-    after-steps:
-        - campfire-notify:
-            token: $CAMPFIRE_TOKEN
-            room-id: id
-            subdomain: campfiresubdomain
 
-```
+    build:
+        after-steps:
+            - campfire-notify:
+                token: $CAMPFIRE_TOKEN
+                room-id: id
+                subdomain: campfiresubdomain
+
+
