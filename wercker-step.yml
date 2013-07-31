@@ -1,5 +1,5 @@
 name: campfire-notify
-version: 0.1.0
+version: 0.1.1
 description: Send a message to a Campfire room
 keywords:
   - notification
