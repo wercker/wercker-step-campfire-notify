@@ -1,0 +1,23 @@
+name: campfire-notify
+version: 1.0.0
+summary: Send a message to a Campfire room
+tags:
+  - notification
+  - campfire
+properties:
+- name: token
+  type: string
+  required: true
+- name: room-id
+  type: string
+  required: true
+- name: subdomain
+  type: string
+  required: true
+- name: failed-message
+  type: string
+- name: passed-message
+  type: string
+- name: on
+  type: string
+  default: always
